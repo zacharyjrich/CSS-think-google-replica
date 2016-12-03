@@ -47,21 +47,21 @@ body {
 
 .area-1 {
   height: 25em;
-  width: auto;
+  width: 100%;
   background-image: url("../img/pic-1.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+  /*justify-content: center;*/
 }
 
 .panel-1 {
   background-color: #263238;
   padding: 1em;
   width: 92%;
-  margin-bottom: 1em;
+  margin: 0 0 1em 1em;
 }
 
 li {
@@ -124,21 +124,37 @@ li {
   float: left;
 }
 
-@media only screen and (min-width: 500px) {
+span {
+  display: none;
+}
+
+/*Media Query Section Begins*/
+
+@media only screen and (min-width: 550px) {
 
   .area-2, .area-3 {
-    height: 15em;
+    height: 18em;
     width: 50%;
     float: left;
   }
 
   .pic-2, .pic-3 {
     width: 100%;
+    height: 65%;
   }
 
   .panel-2, .panel-3 {
     width: 100%;
-    height: 50%;
+    height: 35%;
+  }
+
+  .panel-1 {
+    width: 18em;
+    padding: 2em;
+  }
+
+  span {
+    display: block;
   }
 
 }
