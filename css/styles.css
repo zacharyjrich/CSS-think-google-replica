@@ -31,15 +31,19 @@ body {
   margin-left: 1em;
 }
 
-
 .nav {
-  text-align: center;
-  display: none;
-  width: 60%;
+  text-align: right;
+  width: 70%;
+  margin-right: 1em;
 }
 
 .nav li {
-  display: inline-block;
+  padding-right: 2em;
+  display: none;
+  font-size: 1em;
+}
+
+#magnify {
   padding-right: 1em;
 }
 
@@ -94,7 +98,6 @@ li {
 .panel-2 {
   width: 60%;
   height: 100%;
-  /*float: left;*/
   background-color: #0D47A1;
   padding: 0 1em;
   float: left;
@@ -128,6 +131,10 @@ span {
   display: none;
 }
 
+.slicknav_menu {
+	/*display: none;*/
+}
+
 /*Media Query Section Begins*/
 
 @media only screen and (min-width: 550px) {
@@ -155,6 +162,18 @@ span {
 
   span {
     display: block;
+  }
+
+}
+
+@media only screen and (min-width: 950px) {
+
+  .nav li {
+    display: inline-block;
+  }
+
+  #menubars {
+    display: none;
   }
 
 }
