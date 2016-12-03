@@ -60,11 +60,11 @@ body {
 .panel-1 {
   background-color: #263238;
   padding: 1em;
-  width: 90%;
-  margin-bottom: 20px;
+  width: 92%;
+  margin-bottom: 1em;
 }
 
-.panel-1 li {
+li {
   font-size: .8em;
   display: inline;
 }
@@ -74,14 +74,52 @@ body {
   font-size: 1.4em;
 }
 
+/*Area-1 Ends*/
+
 .area-2 {
-  height: 7.5em;
+  height: 8em;
   width: auto;
+}
+
+.pic-2 {
+  height: 8em;
+  width: 40%;
   background-image: url("../img/pic-2.jpg");
   background-size: cover;
-  /*background-position: center;*/
   background-repeat: no-repeat;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  float: left;
+}
+
+.panel-2 {
+  width: 60%;
+  height: 100%;
+  /*float: left;*/
+  background-color: #0D47A1;
+  padding: 0 1em;
+  float: left;
+}
+
+/*Area-2 Ends*/
+
+.area-3 {
+  height: 8em;
+  width: auto;
+}
+
+.pic-3 {
+  height: 8em;
+  width: 40%;
+  background-image: url("../img/pic-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.panel-3 {
+  width: 60%;
+  height: 100%;
+  /*float: left;*/
+  background-color: #009688;
+  padding: 0 1em;
+  float: left;
 }
