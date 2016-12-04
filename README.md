@@ -10,11 +10,11 @@ This project will replicate the responsive top section of the Think with Google 
 
 ## Objectives
 
-1) Will respond to at least three different screen sizes.
+1) Respond to at least three different screen sizes
 
 2) Images will be fluid
 
-3) Understanding of responsive design patterns is demonstrated
+3) Demonstrate understanding of responsive design patterns
 
 ## Setup/Installation Requirements
 

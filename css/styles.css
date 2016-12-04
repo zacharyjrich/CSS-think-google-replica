@@ -58,7 +58,6 @@ body {
   background-repeat: no-repeat;
   display: flex;
   align-items: flex-end;
-  /*justify-content: center;*/
 }
 
 .panel-1 {
@@ -131,10 +130,6 @@ span {
   display: none;
 }
 
-.slicknav_menu {
-	/*display: none;*/
-}
-
 /*Media Query Section Begins*/
 
 @media only screen and (min-width: 550px) {
@@ -156,9 +151,13 @@ span {
   }
 
   .panel-1 {
-    width: 18em;
+    width: 20em;
     padding: 2em;
     margin: 0 0 2em 2em;
+  }
+
+  .panel-1 p {
+    font-size: 1.7em;
   }
 
   span {
@@ -187,7 +186,5 @@ span {
     height: 18em;
     width: 35%;
   }
-
-
 
 }
