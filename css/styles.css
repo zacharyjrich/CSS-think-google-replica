@@ -43,7 +43,7 @@ body {
   font-size: 1em;
 }
 
-#magnify {
+#mag-icon {
   padding-right: 1em;
 }
 
@@ -158,6 +158,7 @@ span {
   .panel-1 {
     width: 18em;
     padding: 2em;
+    margin: 0 0 2em 2em;
   }
 
   span {
@@ -172,8 +173,21 @@ span {
     display: inline-block;
   }
 
-  #menubars {
+  #menu-icon {
     display: none;
   }
+
+  .area-1 {
+    height: 36em;
+    width: 65%;
+    float: left;
+  }
+
+  .area-2, .area-3 {
+    height: 18em;
+    width: 35%;
+  }
+
+
 
 }
