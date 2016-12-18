@@ -18,7 +18,9 @@ This project will replicate the responsive top section of the Think with Google 
 
 ## Setup/Installation Requirements
 
-1) Clone this repository https://github.com/zacharyjrich/CSS-think-google-replica
+1) Check it out here https://zacharyjrich.github.io/CSS-think-google-replica
+
+2) Or clone this repository https://github.com/zacharyjrich/CSS-think-google-replica
 
 ## Known Bugs
 
